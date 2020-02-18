@@ -1,0 +1,35 @@
+{
+  "item.jassa.soulfragment": "Soul Fragment",
+  "item.jassa.rawsoulshard": "Raw Soul Shard",
+  "item.jassa.infusedsoulshard": "Infused Soul Shard",
+  "item.jassa.soulingot": "Soul Ingot",
+
+  "block.jassa.soulore": "Soul Ore",
+  "block.jassa.soulblock": "Soul Block",
+  "block.jassa.soulfactory": "Soul Factory",
+  "block.jassa.soulcage": "Soul Cage",
+
+  "_comment": "Creative Tabs",
+  "itemGroup.JASSA": "JASSA",
+
+  "tooltip.jassa.bound": "Bound to: %s",
+  "tooltip.jassa.kills": "Souls: %d",
+  "tooltip.jassa.tier": "Tier: %d",
+  "tooltip.jassa.owner": "Owner: %s",
+
+  "chat.jassa.absorb_disabled": "§cThe shard seems to refuse the trapped soul...",
+  "chat.jassa.command_killed": "§2Killed §2%d §2entities",
+  "chat.jassa.command_not_found": "§cDid not find any spawned entities",
+
+  "commands.jassa.usage": "/soulshards [setEnt|setKills|setOwner|killall]",
+  "commands.jassa.set_ent.usage": "/soulshards setEnt <entityId>",
+  "commands.jassa.set_ent.success": "Set bound entity of held shard to %s.",
+  "commands.jassa.set_kills.usage": "/soulshards setKills <killCount>",
+  "commands.jassa.set_kills.success": "Set kill count of held shard to %d.",
+  "commands.jassa.set_owner.usage": "/soulshards setOwner [owner]",
+  "commands.jassa.set_owner.success": "Set owner of held shard to %s.",
+  "commands.jassa.kill_all.usage": "/soulshards killall",
+  "commands.jassa.kill_all.success": "Killed %d cage born entities.",
+  "commands.jassa.error.not_a_shard": "Held item is not a Soul Shard.",
+  "commands.jassa.error.not_a_entity": "%s is invalid or not registered."
+}

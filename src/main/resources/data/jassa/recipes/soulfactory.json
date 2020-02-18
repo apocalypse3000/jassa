@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+
+  "pattern":
+  [
+    "IFI",
+    " A ",
+    "SSS"
+  ],
+
+  "key":
+  {
+    "S": { "item": "jassa:soulingot" },
+    "I": { "item": "minecraft:iron_ingot" },
+    "F": { "item": "jassa:soulfragment" },
+    "A": { "item": "minecraft:anvil" }
+  },
+
+  "result": { "item": "jassa:soulfactory" }
+
+}

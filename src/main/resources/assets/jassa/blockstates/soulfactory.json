@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "facing=north": { "model": "jassa:block/soulfactory" },
+    "facing=south": { "model": "jassa:block/soulfactory", "y": 180 },
+    "facing=west": { "model": "jassa:block/soulfactory", "y": 270 },
+    "facing=east": { "model": "jassa:block/soulfactory", "y": 90 },
+    "facing=up": { "model": "jassa:block/soulfactory", "x": -90 },
+    "facing=down": { "model": "jassa:block/soulfactory", "x": 90 }
+  }
+}

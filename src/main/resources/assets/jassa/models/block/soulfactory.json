@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "particle": "jassa:block/soulfactory",
+    "down": "jassa:block/soulfactory",
+    "up": "jassa:block/soulfactory_top",
+    "east": "jassa:block/soulfactory",
+    "west": "jassa:block/soulfactory",
+    "north": "jassa:block/soulfactory",
+    "south": "jassa:block/soulfactory"
+  }
+}

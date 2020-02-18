@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "jassa:soulore"
+  },
+  "result": "jassa:soulfragment",
+  "experience": 0.7,
+  "cookingtime": 200
+}

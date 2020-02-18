@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "jassa:rawsoulshard"
+  },
+  "result": "jassa:infusedsoulshard",
+  "experience": 14,
+  "cookingtime": 12800
+}
