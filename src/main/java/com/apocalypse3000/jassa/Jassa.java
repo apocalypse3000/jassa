@@ -3,20 +3,18 @@ package com.apocalypse3000.jassa;
 import com.apocalypse3000.jassa.blocks.*;
 import com.apocalypse3000.jassa.config.Config;
 import com.apocalypse3000.jassa.config.OreGen;
-import com.apocalypse3000.jassa.items.InfusedSoulShard;
-import com.apocalypse3000.jassa.items.RawSoulShard;
-import com.apocalypse3000.jassa.items.SoulFragment;
-import com.apocalypse3000.jassa.items.SoulIngot;
-import com.apocalypse3000.jassa.setup.ClientProxy;
-import com.apocalypse3000.jassa.setup.IProxy;
-import com.apocalypse3000.jassa.setup.ModSetup;
-import com.apocalypse3000.jassa.setup.ServerProxy;
+import com.apocalypse3000.jassa.items.*;
+import com.apocalypse3000.jassa.setup.*;
 import com.apocalypse3000.jassa.soulShard.Tiers;
 import net.minecraft.block.Block;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
+import net.minecraft.item.ItemStack;
 import net.minecraft.tileentity.TileEntityType;
+import net.minecraft.util.NonNullList;
 import net.minecraft.world.GameRules;
+import net.minecraftforge.api.distmarker.Dist;
+import net.minecraftforge.api.distmarker.OnlyIn;
 import net.minecraftforge.event.RegistryEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.DistExecutor;
@@ -26,10 +24,9 @@ import net.minecraftforge.fml.config.ModConfig;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.minecraftforge.fml.loading.FMLPaths;
+import net.minecraftforge.registries.ForgeRegistries;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-
-import static com.apocalypse3000.jassa.setup.ModSetup.jassa;
 
 @Mod("jassa")
 public class Jassa {
@@ -38,7 +35,22 @@ public class Jassa {
     public static ModSetup setup = new ModSetup();
     private static final String MODID = "jassa";
     public static GameRules.RuleKey<GameRules.BooleanValue> allowCageSpawns;
-
+    public static final JassaItemGroup jassa = new JassaItemGroup("JASSA", ()->(ModItems.RAWSOULSHARD)) {
+        @OnlyIn(Dist.CLIENT)
+        public void fill(NonNullList<ItemStack> items) {
+            items.add(new ItemStack(ModBlocks.SOULBLOCK));
+            items.add(new ItemStack(ModBlocks.SOULCAGE));
+            items.add(new ItemStack(ModBlocks.SOULFACTORY));
+            items.add(new ItemStack(ModBlocks.SOULORE));
+            items.add(new ItemStack(ModItems.INFUSEDSOULSHARD));
+            items.add(new ItemStack(ModItems.RAWSOULSHARD));
+            items.add(new ItemStack(ModItems.SOULINGOT));
+            items.add(new ItemStack(ModItems.SOULFRAGMENT));
+            for(Item item : ForgeRegistries.ITEMS) {
+                item.fillItemGroup(this, items);
+            }
+        }
+    };
     public Jassa() {
         // Register the setup method for modloading
         FMLJavaModLoadingContext.get().getModEventBus().addListener(this::setup);
@@ -71,7 +83,7 @@ public class Jassa {
         @SubscribeEvent
         public static void onItemsRegistry(final RegistryEvent.Register<Item> event) {
             Tiers.readTiers();
-            Item.Properties properties = new Item.Properties().group(jassa);
+            Item.Properties properties = new Item.Properties();
             event.getRegistry().register(new BlockItem(ModBlocks.SOULBLOCK, properties).setRegistryName("soulblock"));
             event.getRegistry().register(new BlockItem(ModBlocks.SOULORE, properties).setRegistryName("soulore"));
             event.getRegistry().register(new BlockItem(ModBlocks.SOULCAGE, properties).setRegistryName("soulcage"));

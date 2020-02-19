@@ -4,7 +4,6 @@ import com.apocalypse3000.jassa.Jassa;
 import com.apocalypse3000.jassa.blocks.ModBlocks;
 import com.apocalypse3000.jassa.blocks.SoulCageTile;
 import com.apocalypse3000.jassa.config.ModConfig;
-import com.apocalypse3000.jassa.setup.ModSetup;
 import com.apocalypse3000.jassa.soulShard.Binding;
 import com.apocalypse3000.jassa.soulShard.ISoulShard;
 import com.apocalypse3000.jassa.soulShard.Tiers;
@@ -41,7 +40,7 @@ public class InfusedSoulShard extends Item implements ISoulShard {
     }
 
     public InfusedSoulShard() {
-        super(new Properties().group(ModSetup.jassa)
+        super(new Properties()
                 .maxStackSize(1));
         addPropertyOverride(new ResourceLocation(Jassa.getMODID(), "bound"), (stack, worldIn, entityIn) -> getBinding(stack) != null ? 1.0F : 0.0F);
         addPropertyOverride(new ResourceLocation(Jassa.getMODID(), "tier"), (stack, world, entity) -> {

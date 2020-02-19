@@ -3,6 +3,7 @@ package com.apocalypse3000.jassa.blocks;
 import net.minecraft.block.Block;
 import net.minecraft.block.SoundType;
 import net.minecraft.block.material.Material;
+import net.minecraft.util.BlockRenderLayer;
 import net.minecraftforge.common.ToolType;
 
 public class SoulFactory extends Block {
@@ -14,5 +15,9 @@ public class SoulFactory extends Block {
                 .harvestTool(ToolType.PICKAXE)
         );
         setRegistryName("soulfactory");
+    }
+    @Override
+    public BlockRenderLayer getRenderLayer() {
+        return BlockRenderLayer.CUTOUT_MIPPED;
     }
 }

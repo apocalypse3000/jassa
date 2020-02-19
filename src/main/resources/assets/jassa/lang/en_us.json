@@ -16,6 +16,7 @@
   "tooltip.jassa.kills": "Souls: %d",
   "tooltip.jassa.tier": "Tier: %d",
   "tooltip.jassa.owner": "Owner: %s",
+  "tooltip.jassa.cage_born": "Cage Born",
 
   "chat.jassa.absorb_disabled": "§cThe shard seems to refuse the trapped soul...",
   "chat.jassa.command_killed": "§2Killed §2%d §2entities",

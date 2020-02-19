@@ -1,0 +1,325 @@
+[19feb2020 23:36:19.008] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [java.util.stream.ReferencePipeline$3@f07a92f, --gameDir, ., --launchTarget, fmluserdevclient, --fml.mcpVersion, 20190829.143755, --fml.mcVersion, 1.14.4, --fml.forgeGroup, net.minecraftforge, --fml.forgeVersion, 28.1.1, --version, MOD_DEV, --assetIndex, 1.14, --assetsDir, C:\Users\minec\.gradle\caches\forge_gradle\assets, --username, Dev, --accessToken, ????????, --userProperties, {}]
+[19feb2020 23:36:19.015] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 3.2.0+60+b86c1d4 starting: java version 1.8.0_221 by Oracle Corporation
+[19feb2020 23:36:20.243] [main/INFO] [net.minecraftforge.fml.loading.FixSSL/CORE]: Added Lets Encrypt root certificates as additional trust
+[19feb2020 23:36:21.915] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'fmluserdevclient' with arguments [--version, MOD_DEV, --gameDir, ., --assetsDir, C:\Users\minec\.gradle\caches\forge_gradle\assets, java.util.stream.ReferencePipeline$3@f07a92f, --assetIndex, 1.14, --username, Dev, --accessToken, ????????, --userProperties, {}]
+[19feb2020 23:36:22.454] [main/INFO] [STDOUT/]: [net.minecraft.client.main.Main:main:70]: Completely ignored arguments: [java.util.stream.ReferencePipeline$3@f07a92f]
+[19feb2020 23:36:28.328] [Client thread/INFO] [net.minecraft.client.Minecraft/]: Setting user: Dev
+[19feb2020 23:36:49.614] [Client thread/WARN] [net.minecraft.client.GameSettings/]: Skipping bad option: lastServer:
+[19feb2020 23:36:49.697] [Client thread/INFO] [net.minecraft.client.Minecraft/]: LWJGL Version: 3.2.2 build 10
+[19feb2020 23:36:57.954] [modloading-worker-2/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 28.1.1, for MC 1.14.4 with MCP 20190829.143755
+[19feb2020 23:36:57.954] [modloading-worker-2/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v28.1.1 Initialized
+[19feb2020 23:36:58.145] [modloading-worker-1/INFO] [com.apocalypse3000.jassa.Jassa/]: Loading Config: C:\Data D\Škola\jassa_intellij\run\config\jassa-server.toml
+[19feb2020 23:36:58.146] [modloading-worker-1/INFO] [com.apocalypse3000.jassa.Jassa/]: Built Config C:\Data D\Škola\jassa_intellij\run\config\jassa-server.toml
+[19feb2020 23:36:58.148] [modloading-worker-1/INFO] [com.apocalypse3000.jassa.Jassa/]: Loaded ConfigC:\Data D\Škola\jassa_intellij\run\config\jassa-server.toml
+[19feb2020 23:36:58.913] [Client thread/INFO] [com.apocalypse3000.jassa.Jassa/]: Blocks registered
+[19feb2020 23:37:05.740] [Client thread/INFO] [com.mojang.text2speech.NarratorWindows/]: Narrator library for x64 successfully loaded
+[19feb2020 23:37:08.445] [Thread-1/FATAL] [net.minecraftforge.common.ForgeConfig/CORE]: Forge config just got changed on the file system!
+[19feb2020 23:37:08.446] [Thread-1/FATAL] [net.minecraftforge.common.ForgeConfig/CORE]: Forge config just got changed on the file system!
+[19feb2020 23:37:08.450] [Thread-1/FATAL] [net.minecraftforge.common.ForgeConfig/CORE]: Forge config just got changed on the file system!
+[19feb2020 23:37:08.768] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
+[19feb2020 23:37:09.451] [Realms Notification Availability checker #1/INFO] [com.mojang.realmsclient.client.RealmsClient/]: Could not authorize you against Realms server: Invalid session id
+[19feb2020 23:37:09.485] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 28.1.1 Target: 28.2.0
+[19feb2020 23:37:15.405] [Server-Worker-3/WARN] [net.minecraft.client.renderer.model.ModelBakery/]: Exception loading blockstate definition: jassa:blockstates/soulcage.json: java.io.FileNotFoundException: jassa:blockstates/soulcage.json
+[19feb2020 23:37:15.405] [Server-Worker-3/WARN] [net.minecraft.client.renderer.model.ModelBakery/]: Exception loading blockstate definition: 'jassa:blockstates/soulcage.json' missing model for variant: 'jassa:soulcage#active=true,powered=true'
+[19feb2020 23:37:15.406] [Server-Worker-3/WARN] [net.minecraft.client.renderer.model.ModelBakery/]: Exception loading blockstate definition: 'jassa:blockstates/soulcage.json' missing model for variant: 'jassa:soulcage#active=true,powered=false'
+[19feb2020 23:37:15.406] [Server-Worker-3/WARN] [net.minecraft.client.renderer.model.ModelBakery/]: Exception loading blockstate definition: 'jassa:blockstates/soulcage.json' missing model for variant: 'jassa:soulcage#active=false,powered=false'
+[19feb2020 23:37:15.406] [Server-Worker-3/WARN] [net.minecraft.client.renderer.model.ModelBakery/]: Exception loading blockstate definition: 'jassa:blockstates/soulcage.json' missing model for variant: 'jassa:soulcage#active=false,powered=true'
+[19feb2020 23:37:15.411] [Server-Worker-3/WARN] [net.minecraft.client.renderer.model.ModelBakery/]: Exception loading blockstate definition: 'jassa:blockstates/soulfactory.json' in resourcepack: 'main' for variant: 'facing=south': Unknown blockstate property: 'facing'
+[19feb2020 23:37:15.411] [Server-Worker-3/WARN] [net.minecraft.client.renderer.model.ModelBakery/]: Exception loading blockstate definition: 'jassa:blockstates/soulfactory.json' in resourcepack: 'main' for variant: 'facing=east': Unknown blockstate property: 'facing'
+[19feb2020 23:37:15.412] [Server-Worker-3/WARN] [net.minecraft.client.renderer.model.ModelBakery/]: Exception loading blockstate definition: 'jassa:blockstates/soulfactory.json' in resourcepack: 'main' for variant: 'facing=down': Unknown blockstate property: 'facing'
+[19feb2020 23:37:15.412] [Server-Worker-3/WARN] [net.minecraft.client.renderer.model.ModelBakery/]: Exception loading blockstate definition: 'jassa:blockstates/soulfactory.json' in resourcepack: 'main' for variant: 'facing=north': Unknown blockstate property: 'facing'
+[19feb2020 23:37:15.412] [Server-Worker-3/WARN] [net.minecraft.client.renderer.model.ModelBakery/]: Exception loading blockstate definition: 'jassa:blockstates/soulfactory.json' in resourcepack: 'main' for variant: 'facing=up': Unknown blockstate property: 'facing'
+[19feb2020 23:37:15.412] [Server-Worker-3/WARN] [net.minecraft.client.renderer.model.ModelBakery/]: Exception loading blockstate definition: 'jassa:blockstates/soulfactory.json' in resourcepack: 'main' for variant: 'facing=west': Unknown blockstate property: 'facing'
+[19feb2020 23:37:15.413] [Server-Worker-3/WARN] [net.minecraft.client.renderer.model.ModelBakery/]: Exception loading blockstate definition: 'jassa:blockstates/soulfactory.json' missing model for variant: 'jassa:soulfactory#'
+[19feb2020 23:37:16.665] [Server-Worker-3/WARN] [net.minecraft.client.renderer.model.ModelBakery/]: Unable to load model: 'jassa:soulcage#inventory' referenced from: jassa:soulcage#inventory: java.io.FileNotFoundException: jassa:models/item/soulcage.json
+[19feb2020 23:37:20.464] [Client thread/WARN] [net.minecraft.client.GameSettings/]: Skipping bad option: lastServer:
+[19feb2020 23:37:20.788] [Client thread/INFO] [net.minecraft.client.audio.SoundSystem/]: OpenAL initialized.
+[19feb2020 23:37:20.790] [Client thread/INFO] [net.minecraft.client.audio.SoundEngine/SOUNDS]: Sound engine started
+[19feb2020 23:37:21.239] [Client thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 512x512 textures-atlas
+[19feb2020 23:37:22.507] [Client thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 256x256 textures/particle-atlas
+[19feb2020 23:37:22.546] [Client thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 256x256 textures/painting-atlas
+[19feb2020 23:37:22.547] [Client thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 128x128 textures/mob_effect-atlas
+[19feb2020 23:37:42.762] [Client thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[19feb2020 23:37:42.763] [Client thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[19feb2020 23:37:42.764] [Client thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[19feb2020 23:37:42.765] [Client thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[19feb2020 23:37:42.766] [Client thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[19feb2020 23:37:42.988] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Starting integrated minecraft server version 1.14.4
+[19feb2020 23:37:42.989] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Generating keypair
+[19feb2020 23:37:43.138] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file .\saves\New Worldo\serverconfig\jassa-server.toml is not correct. Correcting
+[19feb2020 23:37:43.140] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key oregen was corrected from null to SimpleCommentedConfig:{}
+[19feb2020 23:37:43.140] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key oregen.SoulOreChance was corrected from null to 10
+[19feb2020 23:37:43.140] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key oregen.SoulOreVein was corrected from null to 3
+[19feb2020 23:37:43.144] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file .\saves\New Worldo\serverconfig\forge-server.toml is not correct. Correcting
+[19feb2020 23:37:43.145] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server was corrected from null to SimpleCommentedConfig:{}
+[19feb2020 23:37:43.145] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.removeErroringEntities was corrected from null to false
+[19feb2020 23:37:43.145] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.removeErroringTileEntities was corrected from null to false
+[19feb2020 23:37:43.145] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.fullBoundingBoxLadders was corrected from null to false
+[19feb2020 23:37:43.145] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.zombieBaseSummonChance was corrected from null to 0.1
+[19feb2020 23:37:43.145] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.zombieBabyChance was corrected from null to 0.05
+[19feb2020 23:37:43.145] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.logCascadingWorldGeneration was corrected from null to true
+[19feb2020 23:37:43.146] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.fixVanillaCascading was corrected from null to false
+[19feb2020 23:37:43.146] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.dimensionUnloadQueueDelay was corrected from null to 0
+[19feb2020 23:37:43.146] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.clumpingThreshold was corrected from null to 64
+[19feb2020 23:37:43.146] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.treatEmptyTagsAsAir was corrected from null to false
+[19feb2020 23:37:43.158] [Thread-1/FATAL] [net.minecraftforge.common.ForgeConfig/CORE]: Forge config just got changed on the file system!
+[19feb2020 23:37:43.274] [Server thread/INFO] [net.minecraftforge.registries.GameData/REGISTRIES]: Injecting existing registry data into this SERVER instance
+[19feb2020 23:37:43.750] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Found new data pack vanilla, loading it automatically
+[19feb2020 23:37:43.752] [Server thread/INFO] [net.minecraft.resources.SimpleReloadableResourceManager/]: Reloading ResourceManager: Default, main, forge-1.14.4-28.1.1_mapped_snapshot_20200119-1.14.4-recomp.jar
+[19feb2020 23:37:46.034] [Server thread/INFO] [net.minecraft.item.crafting.RecipeManager/]: Loaded 6 recipes
+[19feb2020 23:37:48.218] [Server thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 811 advancements
+[19feb2020 23:37:56.686] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[19feb2020 23:37:56.867] [Client thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[19feb2020 23:37:57.211] [Client thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[19feb2020 23:37:57.760] [Client thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[19feb2020 23:37:58.252] [Client thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[19feb2020 23:37:58.752] [Client thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[19feb2020 23:37:59.207] [Client thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 1%
+[19feb2020 23:37:59.820] [Client thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 2%
+[19feb2020 23:38:00.260] [Client thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 4%
+[19feb2020 23:38:00.794] [Client thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 4%
+[19feb2020 23:38:01.243] [Client thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 6%
+[19feb2020 23:38:01.704] [Client thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 9%
+[19feb2020 23:38:02.211] [Client thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 9%
+[19feb2020 23:38:02.738] [Client thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 10%
+[19feb2020 23:38:03.232] [Client thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 10%
+[19feb2020 23:38:03.768] [Client thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 15%
+[19feb2020 23:38:04.281] [Client thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 15%
+[19feb2020 23:38:04.774] [Client thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 17%
+[19feb2020 23:38:05.207] [Client thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 17%
+[19feb2020 23:38:05.757] [Client thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 17%
+[19feb2020 23:38:06.544] [Client thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 17%
+[19feb2020 23:38:06.865] [Client thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 21%
+[19feb2020 23:38:07.235] [Client thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 22%
+[19feb2020 23:38:07.743] [Client thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 22%
+[19feb2020 23:38:08.245] [Client thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 27%
+[19feb2020 23:38:08.711] [Client thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 29%
+[19feb2020 23:38:09.236] [Client thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 29%
+[19feb2020 23:38:09.729] [Client thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 33%
+[19feb2020 23:38:10.361] [Client thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 33%
+[19feb2020 23:38:10.968] [Client thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 33%
+[19feb2020 23:38:11.234] [Client thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 33%
+[19feb2020 23:38:11.706] [Client thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 33%
+[19feb2020 23:38:12.251] [Client thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 42%
+[19feb2020 23:38:12.724] [Client thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 42%
+[19feb2020 23:38:13.226] [Client thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 42%
+[19feb2020 23:38:13.742] [Client thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 45%
+[19feb2020 23:38:14.217] [Client thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 45%
+[19feb2020 23:38:14.707] [Client thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 45%
+[19feb2020 23:38:15.217] [Client thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 51%
+[19feb2020 23:38:15.719] [Client thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 51%
+[19feb2020 23:38:16.218] [Client thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 51%
+[19feb2020 23:38:17.167] [Client thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 55%
+[19feb2020 23:38:18.532] [Client thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 59%
+[19feb2020 23:38:18.532] [Client thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 59%
+[19feb2020 23:38:18.532] [Client thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 59%
+[19feb2020 23:38:19.682] [Client thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 65%
+[19feb2020 23:38:19.682] [Client thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 65%
+[19feb2020 23:38:19.715] [Client thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 70%
+[19feb2020 23:38:20.583] [Client thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 70%
+[19feb2020 23:38:21.583] [Client thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 73%
+[19feb2020 23:38:21.583] [Client thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 73%
+[19feb2020 23:38:22.380] [Client thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 79%
+[19feb2020 23:38:22.380] [Client thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 79%
+[19feb2020 23:38:23.015] [Client thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 84%
+[19feb2020 23:38:23.247] [Client thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 86%
+[19feb2020 23:38:23.731] [Client thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 88%
+[19feb2020 23:38:25.725] [Client thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 89%
+[19feb2020 23:38:25.725] [Client thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 89%
+[19feb2020 23:38:25.725] [Client thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 89%
+[19feb2020 23:38:25.725] [Client thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 89%
+[19feb2020 23:38:25.749] [Client thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Time elapsed: 29046 ms
+[19feb2020 23:38:26.513] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[19feb2020 23:38:26.514] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[19feb2020 23:38:32.947] [Netty Local Client IO #0/INFO] [net.minecraftforge.fml.network.NetworkHooks/]: Connected to a modded server.
+[19feb2020 23:38:33.361] [Server thread/INFO] [net.minecraft.server.management.PlayerList/]: Dev[local:E:683a7e74] logged in with entity id 377 at (201.5, 63.0, -114.5)
+[19feb2020 23:38:33.478] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev joined the game
+[19feb2020 23:38:35.612] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2127ms or 42 ticks behind
+[19feb2020 23:38:38.786] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Saving and pausing game...
+[19feb2020 23:38:38.913] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'New Worldo'/minecraft:overworld
+[19feb2020 23:38:39.198] [Client thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 0 advancements
+[19feb2020 23:38:40.637] [pool-3-thread-1/WARN] [com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService/]: Couldn't look up profile properties for com.mojang.authlib.GameProfile@50f62c32[id=380df991-f603-344c-a090-369bad2a924a,name=Dev,properties={},legacy=false]
+com.mojang.authlib.exceptions.AuthenticationException: The client has sent too many requests within a certain amount of time
+	at com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService.makeRequest(YggdrasilAuthenticationService.java:79) ~[authlib-1.5.25.jar:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService.fillGameProfile(YggdrasilMinecraftSessionService.java:180) ~[authlib-1.5.25.jar:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService$1.load(YggdrasilMinecraftSessionService.java:60) ~[authlib-1.5.25.jar:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService$1.load(YggdrasilMinecraftSessionService.java:57) ~[authlib-1.5.25.jar:?]
+	at com.google.common.cache.LocalCache$LoadingValueReference.loadFuture(LocalCache.java:3716) ~[guava-21.0.jar:?]
+	at com.google.common.cache.LocalCache$Segment.loadSync(LocalCache.java:2424) ~[guava-21.0.jar:?]
+	at com.google.common.cache.LocalCache$Segment.lockedGetOrLoad(LocalCache.java:2298) ~[guava-21.0.jar:?]
+	at com.google.common.cache.LocalCache$Segment.get(LocalCache.java:2211) ~[guava-21.0.jar:?]
+	at com.google.common.cache.LocalCache.get(LocalCache.java:4154) ~[guava-21.0.jar:?]
+	at com.google.common.cache.LocalCache.getOrLoad(LocalCache.java:4158) ~[guava-21.0.jar:?]
+	at com.google.common.cache.LocalCache$LocalLoadingCache.get(LocalCache.java:5147) ~[guava-21.0.jar:?]
+	at com.google.common.cache.LocalCache$LocalLoadingCache.getUnchecked(LocalCache.java:5153) ~[guava-21.0.jar:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService.fillProfileProperties(YggdrasilMinecraftSessionService.java:170) ~[authlib-1.5.25.jar:?]
+	at net.minecraft.client.Minecraft.getProfileProperties(Minecraft.java:1852) ~[?:?]
+	at net.minecraft.client.resources.SkinManager.lambda$loadProfileTextures$1(SkinManager.java:105) ~[?:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [?:1.8.0_221]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [?:1.8.0_221]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_221]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_221]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_221]
+[19feb2020 23:38:50.788] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[19feb2020 23:38:50.790] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[19feb2020 23:38:50.797] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[19feb2020 23:38:50.797] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'New Worldo'/minecraft:overworld
+[19feb2020 23:38:51.814] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (New Worldo): All chunks are saved
+[19feb2020 23:38:51.864] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (New Worldo): All chunks are saved
+[19feb2020 23:38:52.934] [Client thread/FATAL] [net.minecraft.client.Minecraft/]: Reported exception thrown!
+net.minecraft.crash.ReportedException: Rendering screen
+	at net.minecraft.client.renderer.GameRenderer.updateCameraAndRender(GameRenderer.java:567) ~[forge-1.14.4-28.1.1_mapped_snapshot_20200119-1.14.4-recomp.jar:?]
+	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:887) ~[forge-1.14.4-28.1.1_mapped_snapshot_20200119-1.14.4-recomp.jar:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:384) ~[forge-1.14.4-28.1.1_mapped_snapshot_20200119-1.14.4-recomp.jar:?]
+	at net.minecraft.client.main.Main.main(Main.java:128) ~[forge-1.14.4-28.1.1_mapped_snapshot_20200119-1.14.4-recomp.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_221]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_221]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_221]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_221]
+	at net.minecraftforge.userdev.FMLUserdevClientLaunchProvider.lambda$launchService$0(FMLUserdevClientLaunchProvider.java:55) ~[forge-1.14.4-28.1.1_mapped_snapshot_20200119-1.14.4-recomp.jar:?]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:37) [modlauncher-3.2.0.jar:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:50) [modlauncher-3.2.0.jar:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:68) [modlauncher-3.2.0.jar:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:80) [modlauncher-3.2.0.jar:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:65) [modlauncher-3.2.0.jar:?]
+	at net.minecraftforge.userdev.LaunchTesting.main(LaunchTesting.java:101) [forge-1.14.4-28.1.1_mapped_snapshot_20200119-1.14.4-recomp.jar:?]
+Caused by: java.lang.NullPointerException
+	at com.apocalypse3000.jassa.items.InfusedSoulShard.showDurabilityBar(InfusedSoulShard.java:147) ~[main/:?]
+	at net.minecraft.client.renderer.ItemRenderer.renderItemOverlayIntoGUI(ItemRenderer.java:340) ~[forge-1.14.4-28.1.1_mapped_snapshot_20200119-1.14.4-recomp.jar:?]
+	at net.minecraft.client.gui.screen.inventory.ContainerScreen.drawSlot(ContainerScreen.java:235) ~[forge-1.14.4-28.1.1_mapped_snapshot_20200119-1.14.4-recomp.jar:?]
+	at net.minecraft.client.gui.screen.inventory.ContainerScreen.render(ContainerScreen.java:98) ~[forge-1.14.4-28.1.1_mapped_snapshot_20200119-1.14.4-recomp.jar:?]
+	at net.minecraft.client.gui.DisplayEffectsScreen.render(DisplayEffectsScreen.java:45) ~[forge-1.14.4-28.1.1_mapped_snapshot_20200119-1.14.4-recomp.jar:?]
+	at net.minecraft.client.gui.screen.inventory.CreativeScreen.render(CreativeScreen.java:600) ~[forge-1.14.4-28.1.1_mapped_snapshot_20200119-1.14.4-recomp.jar:?]
+	at net.minecraftforge.client.ForgeHooksClient.drawScreen(ForgeHooksClient.java:347) ~[forge-1.14.4-28.1.1_mapped_snapshot_20200119-1.14.4-recomp.jar:?]
+	at net.minecraft.client.renderer.GameRenderer.updateCameraAndRender(GameRenderer.java:554) ~[forge-1.14.4-28.1.1_mapped_snapshot_20200119-1.14.4-recomp.jar:?]
+	... 14 more
+[19feb2020 23:38:52.973] [Client thread/INFO] [STDOUT/]: [net.minecraft.util.registry.Bootstrap:printToSYSOUT:100]: ---- Minecraft Crash Report ----
+// Don't be sad, have a hug! <3
+
+Time: 19.2.2020 23:38
+Description: Rendering screen
+
+java.lang.NullPointerException: Rendering screen
+	at com.apocalypse3000.jassa.items.InfusedSoulShard.showDurabilityBar(InfusedSoulShard.java:147) ~[main/:?] {}
+	at net.minecraft.client.renderer.ItemRenderer.renderItemOverlayIntoGUI(ItemRenderer.java:340) ~[forge-1.14.4-28.1.1_mapped_snapshot_20200119-1.14.4-recomp.jar:?] {pl:accesstransformer:B,pl:runtimedistcleaner:A}
+	at net.minecraft.client.gui.screen.inventory.ContainerScreen.drawSlot(ContainerScreen.java:235) ~[forge-1.14.4-28.1.1_mapped_snapshot_20200119-1.14.4-recomp.jar:?] {pl:runtimedistcleaner:A}
+	at net.minecraft.client.gui.screen.inventory.ContainerScreen.render(ContainerScreen.java:98) ~[forge-1.14.4-28.1.1_mapped_snapshot_20200119-1.14.4-recomp.jar:?] {pl:runtimedistcleaner:A}
+	at net.minecraft.client.gui.DisplayEffectsScreen.render(DisplayEffectsScreen.java:45) ~[forge-1.14.4-28.1.1_mapped_snapshot_20200119-1.14.4-recomp.jar:?] {pl:runtimedistcleaner:A}
+	at net.minecraft.client.gui.screen.inventory.CreativeScreen.render(CreativeScreen.java:600) ~[forge-1.14.4-28.1.1_mapped_snapshot_20200119-1.14.4-recomp.jar:?] {pl:runtimedistcleaner:A}
+	at net.minecraftforge.client.ForgeHooksClient.drawScreen(ForgeHooksClient.java:347) ~[forge-1.14.4-28.1.1_mapped_snapshot_20200119-1.14.4-recomp.jar:?] {}
+	at net.minecraft.client.renderer.GameRenderer.updateCameraAndRender(GameRenderer.java:554) ~[forge-1.14.4-28.1.1_mapped_snapshot_20200119-1.14.4-recomp.jar:?] {pl:accesstransformer:B,pl:runtimedistcleaner:A}
+	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:887) ~[forge-1.14.4-28.1.1_mapped_snapshot_20200119-1.14.4-recomp.jar:?] {pl:accesstransformer:B,pl:runtimedistcleaner:A}
+	at net.minecraft.client.Minecraft.run(Minecraft.java:384) ~[forge-1.14.4-28.1.1_mapped_snapshot_20200119-1.14.4-recomp.jar:?] {pl:accesstransformer:B,pl:runtimedistcleaner:A}
+	at net.minecraft.client.main.Main.main(Main.java:128) ~[forge-1.14.4-28.1.1_mapped_snapshot_20200119-1.14.4-recomp.jar:?] {pl:runtimedistcleaner:A}
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_221] {}
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_221] {}
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_221] {}
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_221] {}
+	at net.minecraftforge.userdev.FMLUserdevClientLaunchProvider.lambda$launchService$0(FMLUserdevClientLaunchProvider.java:55) ~[forge-1.14.4-28.1.1_mapped_snapshot_20200119-1.14.4-recomp.jar:?] {}
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:37) [modlauncher-3.2.0.jar:?] {}
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:50) [modlauncher-3.2.0.jar:?] {}
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:68) [modlauncher-3.2.0.jar:?] {}
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:80) [modlauncher-3.2.0.jar:?] {}
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:65) [modlauncher-3.2.0.jar:?] {}
+	at net.minecraftforge.userdev.LaunchTesting.main(LaunchTesting.java:101) [forge-1.14.4-28.1.1_mapped_snapshot_20200119-1.14.4-recomp.jar:?] {}
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Thread: Client thread
+Stacktrace:
+	at com.apocalypse3000.jassa.items.InfusedSoulShard.showDurabilityBar(InfusedSoulShard.java:147)
+	at net.minecraft.client.renderer.ItemRenderer.renderItemOverlayIntoGUI(ItemRenderer.java:340)
+	at net.minecraft.client.gui.screen.inventory.ContainerScreen.drawSlot(ContainerScreen.java:235)
+	at net.minecraft.client.gui.screen.inventory.ContainerScreen.render(ContainerScreen.java:98)
+	at net.minecraft.client.gui.DisplayEffectsScreen.render(DisplayEffectsScreen.java:45)
+	at net.minecraft.client.gui.screen.inventory.CreativeScreen.render(CreativeScreen.java:600)
+	at net.minecraftforge.client.ForgeHooksClient.drawScreen(ForgeHooksClient.java:347)
+
+-- Screen render details --
+Details:
+	Screen name: net.minecraft.client.gui.screen.inventory.CreativeScreen
+	Mouse location: Scaled: (236, 88). Absolute: (708.000000, 266.000000)
+	Screen size: Scaled: (640, 334). Absolute: (1920, 1001). Scale factor of 3.000000
+
+-- Affected level --
+Details:
+	All players: 1 total; [ClientPlayerEntity['Dev'/377, l='MpServer', x=201.50, y=63.00, z=-114.50]]
+	Chunk stats: Client Chunk Cache: 729, 462
+	Level dimension: DimensionType{minecraft:overworld}
+	Level name: MpServer
+	Level seed: 0
+	Level generator: ID 00 - default, ver 1. Features enabled: false
+	Level generator options: {}
+	Level spawn location: World: (210,63,-121), Chunk: (at 2,3,7 in 13,-8; contains blocks 208,0,-128 to 223,255,-113), Region: (0,-1; contains chunks 0,-32 to 31,-1, blocks 0,0,-512 to 511,255,-1)
+	Level time: 408 game time, 408 day time
+	Level storage version: 0x00000 - Unknown?
+	Level weather: Rain time: 0 (now: false), thunder time: 0 (now: false)
+	Level game mode: Game mode: creative (ID 1). Hardcore: false. Cheats: false
+	Server brand: forge
+	Server type: Integrated singleplayer server
+Stacktrace:
+	at net.minecraft.client.world.ClientWorld.fillCrashReport(ClientWorld.java:410)
+	at net.minecraft.client.Minecraft.addGraphicsAndWorldToCrashReport(Minecraft.java:1747)
+	at net.minecraft.client.Minecraft.run(Minecraft.java:400)
+	at net.minecraft.client.main.Main.main(Main.java:128)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at net.minecraftforge.userdev.FMLUserdevClientLaunchProvider.lambda$launchService$0(FMLUserdevClientLaunchProvider.java:55)
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:37)
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:50)
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:68)
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:80)
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:65)
+	at net.minecraftforge.userdev.LaunchTesting.main(LaunchTesting.java:101)
+
+-- System Details --
+Details:
+	Minecraft Version: 1.14.4
+	Minecraft Version ID: 1.14.4
+	Operating System: Windows 10 (amd64) version 10.0
+	Java Version: 1.8.0_221, Oracle Corporation
+	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+	Memory: 424041584 bytes (404 MB) / 1261436928 bytes (1203 MB) up to 2863661056 bytes (2731 MB)
+	CPUs: 4
+	JVM Flags: 2 total; -XX:HeapDumpPath=MojangTricksIntelDriversForPerformance_javaw.exe_minecraft.exe.heapdump -Xmx3072m
+	ModLauncher: 3.2.0+60+b86c1d4
+	ModLauncher launch target: fmluserdevclient
+	ModLauncher naming: mcp
+	ModLauncher services: 
+		/eventbus-1.0.0-service.jar eventbus PLUGINSERVICE 
+		/forge-1.14.4-28.1.1_mapped_snapshot_20200119-1.14.4-launcher.jar object_holder_definalize PLUGINSERVICE 
+		/forge-1.14.4-28.1.1_mapped_snapshot_20200119-1.14.4-launcher.jar runtime_enum_extender PLUGINSERVICE 
+		/accesstransformers-1.0.0-shadowed.jar accesstransformer PLUGINSERVICE 
+		/forge-1.14.4-28.1.1_mapped_snapshot_20200119-1.14.4-launcher.jar capability_inject_definalize PLUGINSERVICE 
+		/forge-1.14.4-28.1.1_mapped_snapshot_20200119-1.14.4-launcher.jar runtimedistcleaner PLUGINSERVICE 
+		/forge-1.14.4-28.1.1_mapped_snapshot_20200119-1.14.4-launcher.jar fml TRANSFORMATIONSERVICE 
+	FML: 28.1
+	Forge: net.minecraftforge:28.1.1
+	FML Language Providers: 
+		javafml@28.1
+		minecraft@1
+	Mod List: 
+		forge-1.14.4-28.1.1_mapped_snapshot_20200119-1.14.4-recomp.jar Forge {forge@28.1.1 DONE}
+		main Just Another Soul Shards Attempt {jassa@NONE DONE}
+		client-extra.jar Minecraft {minecraft@1.14.4 DONE}
+	Launched Version: MOD_DEV
+	LWJGL: 3.2.2 build 10
+	OpenGL: GeForce GTX 950M/PCIe/SSE2 GL version 4.6.0 NVIDIA 431.60, NVIDIA Corporation
+	GL Caps: Using GL 1.3 multitexturing.
+Using GL 1.3 texture combiners.
+Using framebuffer objects because OpenGL 3.0 is supported and separate blending is supported.
+Shaders are available because OpenGL 2.1 is supported.
+VBOs are available because OpenGL 1.5 is supported.
+
+	Using VBOs: Yes
+	Is Modded: Definitely; Client brand changed to 'forge'
+	Type: Client (map_client.txt)
+	Resource Packs: 
+	Current Language: English (US)
+	CPU: 4x Intel(R) Core(TM) i5-6300HQ CPU @ 2.30GHz
+[19feb2020 23:38:52.975] [Client thread/INFO] [STDOUT/]: [net.minecraft.util.registry.Bootstrap:printToSYSOUT:100]: #@!@# Game crashed! Crash report saved to: #@!@# C:\Data D\Škola\jassa_intellij\run\.\crash-reports\crash-2020-02-19_23.38.52-client.txt
